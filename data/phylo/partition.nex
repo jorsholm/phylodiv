@@ -1,0 +1,8 @@
+#NEXUS
+
+begin sets; 
+    charset p1=1-.\3;
+    charset p2=2-.\3;
+    charset p3=3-.\3;
+    charpartition mrb=SYM+G:p1, GTR+F+G:p2, GTR+F+G:p3;
+end; 
